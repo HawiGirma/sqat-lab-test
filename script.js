@@ -1,21 +1,26 @@
-const display = document.getElementById("display");
-
-function appendValue(value) {
-    display.value += value;
+function add(a, b) {
+    return a + b;
 }
 
-function clearDisplay() {
-    display.value = "";
+function subtract(a, b) {
+    return a - b;
 }
 
-function deleteLast() {
-    display.value = display.value.slice(0, -1);
+function multiply(a, b) {
+    return a * b;
 }
 
-function calculate() {
-    try {
-        display.value = eval(display.value);
-    } catch {
-        display.value = "Error";
+function divide(a, b) {
+    if (b === 0) {
+        throw new Error("Cannot divide by zero");
     }
+    return a / b;
 }
+
+// Export functions for testing
+module.exports = {
+    add,
+    subtract,
+    multiply,
+    divide
+};

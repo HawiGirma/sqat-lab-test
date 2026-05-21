@@ -1,0 +1,24 @@
+{
+  "name": "sqat-lab-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HawiGirma/sqat-lab-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HawiGirma/sqat-lab-test/issues"
+  },
+  "homepage": "https://github.com/HawiGirma/sqat-lab-test#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
